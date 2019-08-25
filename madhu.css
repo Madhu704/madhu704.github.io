@@ -32,8 +32,16 @@ a {
 	color: #ef233c;
 }
 
+img{
+	width: 150px;
+}
+
 a:hover {
 	text-decoration: none;
+}
+
+.project{
+	overflow: auto;
 }
 
 .content-wrap {
@@ -50,11 +58,27 @@ a:hover {
 }
 
 .col-wide {
+	padding-top: 25px;
 	width: 70%;
 	float: left;
 	padding-left: 20px;
 	min-height: 175px;
 }
+
+.col-narrow1 {
+	width: 30%;
+	float: left;
+	min-height: 75px;
+}
+
+.col-wide1 {
+	padding-top: 25px;
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+	min-height: 75px;
+}
+
 
 /*Header and Footer
 ------------------------*/
